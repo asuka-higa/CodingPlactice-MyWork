@@ -72,16 +72,14 @@ h2 {
 
 .works-img-container {
   display: flex;
+  row-gap: 30px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .works-img {
   display: block;
-  max-width: 260px;
   width: 31%;
-  flex: 1;
-  margin-bottom: 30px;
 }
 
 #news {
@@ -182,6 +180,14 @@ small {
     font-size: 13px;
   }
 
+  .nav-ul li {
+    margin-left: 20px;
+  }
+
+  .nav-ul li:first-child {
+    margin-left: 0px;
+  }
+
   .main-img {
     background-image: url(../img/mainvisual-sp.jpg);
   }
@@ -209,5 +215,6 @@ small {
   th,
   td {
     display: block;
+    width: 100%;
   }
 }
